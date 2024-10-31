@@ -1,0 +1,49 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+body {
+    font-family: Poppins;
+    background-color: #ec5600;
+}
+
+.btn {
+    background-color: #EC5800;
+    color: white;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.btn:hover {
+    background-color: #EC5800;
+    color: white;
+    transform: scale(1.1); 
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+}
+
+.dev {
+    color: #f4f4f4;
+}
+
+.about-dev {
+    background-color: #f4f4f4;
+    color: #EC5800;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.about-dev:hover {
+    background-color: #f4f4f4;
+    color: #ec5600;
+    transform: scale(1.1); 
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.5));
+}
+
+.social-links {
+    color: #f4f4f4;
+}
+
+.result-body {
+    background-color: #EC5800;
+    color: #f4f4f4;
+    
+}
